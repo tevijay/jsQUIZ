@@ -9,7 +9,7 @@ function getAllTransactions () {
 
 // Add a new transaction
 function addNewTransactions (trans) {
-   dataStore.push(trans)
+   return dataStore.push(trans)
 }
 
 
